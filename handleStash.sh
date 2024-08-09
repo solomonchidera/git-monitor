@@ -1,3 +1,4 @@
+# git-monitor start
 # Avoid that merge conflict
 # Add this to your ~/.zshrc, ~/.bashrc file
 
