@@ -1,6 +1,4 @@
-# git-monitor start
-# Avoid that merge conflict
-# Add this to your ~/.zshrc, ~/.bashrc file
+# DO NOT USE YET!‼️
 
 function git_pull_on_cd() {
   # Check if the current directory is a Git repository
@@ -23,5 +21,3 @@ function git_pull_on_cd() {
 chpwd() {
   git_pull_on_cd
 }
-
-# git monitor end
