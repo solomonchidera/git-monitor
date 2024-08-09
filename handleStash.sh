@@ -22,3 +22,5 @@ function git_pull_on_cd() {
 chpwd() {
   git_pull_on_cd
 }
+
+# git monitor end
