@@ -8,7 +8,10 @@ function git_pull_on_cd() {
       echo "Local changes detected. Skipping git pull."
     else
       echo "Running git pull..."
-      git pull --no-edit --no-verify
+      try
+        git pull --no-edit --no-verify
+      catch
+        echo "Network error detected exiting..."
     fi
   fi
 }
